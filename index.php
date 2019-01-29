@@ -11,6 +11,7 @@
     </head>
 
     <body>
+    <h1>Mess Management</h1>
         <?php
         
             if (isset($_GET['page']) and isset($_GET['role'])) {

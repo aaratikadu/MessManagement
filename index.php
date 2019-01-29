@@ -14,7 +14,14 @@
         <?php
         
             if (isset($_GET['page']) and isset($_GET['role'])) {
-                
+                $page = 'layouts/'.$_GET['role'].'/'.$_GET['page'].'.php';
+                /*
+                http://localhost/MessManagement/?page=dashboard&role=admin
+                This can access the layouts->admin->dashboard.php
+                */
+                if (!@include($page)) {
+                  @include('layouts/error-404.php');
+                }
             } else {
                 include('layouts/homepage.php');
             }

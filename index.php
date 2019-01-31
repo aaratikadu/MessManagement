@@ -33,7 +33,7 @@
                   @include('layouts/error-404.php');
                 }
             } else {
-                include('layouts/homepage.php');
+                include('layouts/customer/registration.php');
             }
         ?>
         </div>

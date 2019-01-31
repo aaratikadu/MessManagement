@@ -60,6 +60,7 @@
         </div>
 
         <div class="row">           
+<<<<<<< HEAD:registration.php
         <div class="input-field col m6 s12">
           <select>
             <option value="" disabled selected>Branch</option>
@@ -70,6 +71,18 @@
             <option value="5">Instrumentation</option>
             <option value="6">Electrinics</option>
         </select>
+=======
+         <div class="input-field col m6 s12">
+      <select>
+      <option value="" disabled selected>Branch</option>
+      <option value="1">Computer</option>
+      <option value="2">Electrical</option>
+      <option value="3">Civil </option>
+      <option value="4">machanical</option>
+      <option value="5">Instrumentation</option>
+      <option value="6">Electrinics</option>
+       </select>
+>>>>>>> 3eeef3e3159adf8b7a5c582fc96a347b845756a7:layouts/customer.1/registration.php
     </div>
         <div class="input-field col m6 s12">
     <select>
@@ -84,7 +97,7 @@
   </div>
     </div>
         <div class="row">
-        <div class=input-field col  m6 s12">
+        <div class="input-field col  m6 s12">
            <input  id="dob" type="text" class="datepicker">
            <label for="dob">Date of Birth</label>
             </div>

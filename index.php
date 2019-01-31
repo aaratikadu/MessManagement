@@ -11,7 +11,7 @@
     </head>
 
     <body>
-    <h1>Mess Management system</h1>
+    
         <?php
         
             if (isset($_GET['page']) and isset($_GET['role'])) {
@@ -24,7 +24,7 @@
                   @include('layouts/error-404.php');
                 }
             } else {
-                include('layouts/customer/registration.php');
+                include('layouts/customer/homepage.php');
             }
         ?>
       <!--JavaScript at end of body for optimized loading-->

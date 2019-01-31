@@ -60,7 +60,7 @@
         </div>
         <div class="row">           
          <div class="input-field col m6 s12">
-    <select>
+      <select>
       <option value="" disabled selected>Branch</option>
       <option value="1">Computer</option>
       <option value="2">Electrical</option>
@@ -68,7 +68,7 @@
       <option value="4">machanical</option>
       <option value="5">Instrumentation</option>
       <option value="6">Electrinics</option>
-</select>
+       </select>
     </div>
         <div class="input-field col m6 s12">
     <select>
@@ -83,7 +83,7 @@
   </div>
     </div>
         <div class="row">
-        <div class=input-field col  m6 s12">
+        <div class="input-field col  m6 s12">
            <input  id="dob" type="text" class="datepicker">
            <label for="dob">Date of Birth</label>
             </div>

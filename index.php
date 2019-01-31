@@ -24,7 +24,7 @@
                   @include('layouts/error-404.php');
                 }
             } else {
-                include('layouts/homepage.php');
+                include('layouts/customer/registration.php');
             }
         ?>
       <!--JavaScript at end of body for optimized loading-->

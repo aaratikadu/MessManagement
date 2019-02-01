@@ -20,6 +20,18 @@
     </head>
 
     <body>
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper pink darken-1">
+        <a href="#!" class="brand-logo">Mess Managment</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Mess Managment</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
         <div class="container">
           <?php
         

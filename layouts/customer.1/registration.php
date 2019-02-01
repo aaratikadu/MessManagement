@@ -18,7 +18,7 @@
       <style>
         body {
          
-         height: 100%; 
+        height: 100%; 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -58,7 +58,20 @@
           <label for="clgname">College Name</label>
         </div>
         </div>
+
         <div class="row">           
+<<<<<<< HEAD:registration.php
+        <div class="input-field col m6 s12">
+          <select>
+            <option value="" disabled selected>Branch</option>
+            <option value="1">Computer</option>
+            <option value="2">Electrical</option>
+            <option value="3">Civil </option>
+            <option value="4">machanical</option>
+            <option value="5">Instrumentation</option>
+            <option value="6">Electrinics</option>
+        </select>
+=======
          <div class="input-field col m6 s12">
       <select>
       <option value="" disabled selected>Branch</option>
@@ -69,6 +82,7 @@
       <option value="5">Instrumentation</option>
       <option value="6">Electrinics</option>
        </select>
+>>>>>>> 3eeef3e3159adf8b7a5c582fc96a347b845756a7:layouts/customer.1/registration.php
     </div>
         <div class="input-field col m6 s12">
     <select>
@@ -128,22 +142,19 @@
     
  
   </div>
-
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 <script>
 $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
   });
- 
-
-   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
+  $(document).ready(function(){
+    $('select').formSelect();
   });
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems, options);
+        
+    $(document).ready(function(){
+    $('.datepicker').datepicker();
   });
-  
         
 
 </script>

@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!--<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mess Management System....</title>
 
-
-      -->
-      <!-- Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <style>
-        body {
-         
-         height: 100%; 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-      </style>
-        
-</head>
-<body>
-  <div class="container">
       <div class="card-panel deep-orange lighten-1"><h2>Registration</h2></div>
 
           <div class="row">
@@ -103,24 +74,3 @@
         </button>
       
     </div>
-
-<script type="text/javascript" href="assets/js/materialize.min.js">
-     $(document).ready(function() {
-      $('input#input_text, textarea#textarea2').characterCounter();
-       });
- 
-
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
-      });
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems, options);
-    });
-  
-        
-
-</script>
-</body>
-</html>

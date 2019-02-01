@@ -45,7 +45,7 @@
                   @include('layouts/error-404.php');
                 }
             } else {
-                include('layouts/customer/registration.php');
+                include('layouts/customer/homepage.php');
             }
         ?>
         </div>

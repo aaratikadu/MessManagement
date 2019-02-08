@@ -27,7 +27,7 @@
             if (isset($_GET['page']) and isset($_GET['role'])) {
                 $page = 'layouts/'.$_GET['role'].'/'.$_GET['page'].'.php';
                 include('layouts/'.$_GET['role'].'/theme.php');
-
+                echo '<div class="container">';
                 /*
                 http://localhost/MessManagement/?page=dashboard&role=admin
                 This can access the layouts->admin->dashboard.php

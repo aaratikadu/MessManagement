@@ -12,6 +12,4 @@
       </div>
     </nav>
   </div>
-  <div class="container">
-<div class="footer">
-</div>
+  
